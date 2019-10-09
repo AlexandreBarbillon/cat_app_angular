@@ -9,9 +9,6 @@ export class CatCardComponent implements OnInit {
 
   constructor() { }
 
-  get_date(){
-    return new Date().getFullYear()
-  }
 
   ngOnInit() {
   }

@@ -9,6 +9,11 @@ export class LilleFooterComponent implements OnInit {
 
   constructor() { }
 
+
+  get_date(){
+    return new Date().getFullYear()
+  }
+  
   ngOnInit() {
   }
 
