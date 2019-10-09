@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CatCardComponent } from './cat-card/cat-card.component';
 import { LilleFooterComponent } from './lille-footer/lille-footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CatCardComponent, LilleFooterComponent ],
+  declarations: [ AppComponent, HelloComponent, CatCardComponent, LilleFooterComponent, HeaderComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
