@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { CatCardComponent } from './cat-card/cat-card.component';
 import { LilleFooterComponent } from './lille-footer/lille-footer.component';
 import { HeaderComponent } from './header/header.component';
+import { CatCardListComponent } from './cat-card-list/cat-card-list.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CatCardComponent, LilleFooterComponent, HeaderComponent ],
+  declarations: [ AppComponent, HelloComponent, CatCardComponent, LilleFooterComponent, HeaderComponent, CatCardListComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
